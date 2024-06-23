@@ -18,7 +18,6 @@ const startHandler = () => {
     body.style.backgroundColor = getRandomHexColor();
   }, CHANGE_COLOR_DURATION);
 };
-
 const stopHandler = () => {
   clearInterval(intervalId);
   startBtn.removeAttribute('disabled');
